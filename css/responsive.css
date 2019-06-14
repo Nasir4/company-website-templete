@@ -1,0 +1,93 @@
+/* Large Devices Like (Desktop & Laptops) */
+
+@media (min-width:1200px) {
+    #home-header h1.text-white{
+        color:white!important;
+    }
+}
+
+/* Medium Devices Like (Landscap & Tablates) */
+@media (min-width:992px) and (max-width:1199px){
+    #home-header h1.text-white{
+        /*color:yellow!important;*/
+        font-size: 3rem;
+    }
+    #footer-menu a{
+        color:#fff;
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0 3px;
+        text-decoration: none;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    #home-header h1.text-white{
+        _color:green!important;
+        font-size: 3rem;
+        font-weight: 700;
+        max-width: 900px;
+    }
+    .navbar{
+        padding:8px 0;
+        background: rgba(0,0,0,.5);
+    }
+    #footer-menu a{
+        color:#fff;
+        font-size: 13px;
+        _font-weight: 300;
+        margin: 0 0px;
+        text-decoration: none;
+    }
+    #footer-copyrights p{
+        font-size: 14px;
+   }
+   .about-desc p{
+       _color:red;
+       width:70%;
+   }
+}
+
+@media(max-width:767px){
+    #home-header h1.text-white{
+        _color:green!important;
+        font-size: 2.5rem;
+        font-weight: 700;
+        max-width: 900px;
+    }
+    .navbar{
+        padding:8px 0;
+        background: rgba(0,0,0,.5);
+    }
+    .about-desc p{
+        _color:red;
+        width:60%;
+    }
+    .stats-item{
+        padding:20px 0;
+    }
+    .hidden-sm{
+        display: none;
+    }
+    #footer-copyrights p{
+        text-align: center;
+   }
+}
+
+@media(max-width:480px){
+    #home-header h1.text-white{
+        font-size: 2rem;
+        font-weight: 700;
+        max-width: 900px;
+    }
+
+    .about-bg-diagnol {
+        width: 100%;
+        height: 400px;
+        float: none;
+        _border: 1px solid red;
+        background-image: url(../images/women.jpg);
+        border-left:0px;
+        border-top: 0px;
+    }
+}
